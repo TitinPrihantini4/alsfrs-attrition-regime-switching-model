@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use the code, simulation outputs, or figures from this repository, please cite this research software using the metadata below."
+type: software
+title: "ALS Regime Switching Attrition: Functional and Respiratory Reserve Modeling"
+authors:
+  - name: "Prihantini"
+repository-code: "https://github.com/TitinPrihantini4/als-regime-switching-attrition"
+url: "https://github.com/TitinPrihantini4/als-regime-switching-attrition"
+license: MIT
+abstract: >-
+  Research code and reproducible numerical outputs accompanying the manuscript
+  "Regime Switching Model of ALSFRS-R Attrition and Respiratory Reserve
+  Delineates Homeostatic Tipping Boundaries in Amyotrophic Lateral Sclerosis".
+  The literature-parameterized mathematical proof-of-concept combines a
+  four-state nonlinear ordinary differential equation model of functional
+  reserve, respiratory reserve, latent disease momentum, and homeostatic
+  reserve with a model-defined compensation margin. The repository includes
+  scenario simulations, first-passage and boundary analyses, Latin hypercube
+  sensitivity analysis, stochastic perturbations, latent-subsystem stability,
+  synthetic model comparisons, and figures. No patient-level clinical
+  calibration or external validation is claimed.
+keywords:
+  - amyotrophic lateral sclerosis
+  - ALSFRS-R
+  - respiratory reserve
+  - nonlinear ordinary differential equations
+  - first-passage analysis
+  - regime classification
+  - global sensitivity analysis
+  - reproducible research
