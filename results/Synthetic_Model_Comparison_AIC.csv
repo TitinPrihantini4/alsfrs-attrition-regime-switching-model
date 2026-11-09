@@ -1,0 +1,5 @@
+model,AIC_synthetic,standardized_RSS,fitted_parameters,delta_AIC
+Full regime-switching structural model,-3.8577221958385106,16.478068249134097,4,0.0
+Shared-inflection latent reserve model,-1.1883103454071815,15.655993774133925,6,2.669411850431329
+Independent linear trajectory model,11.53123278872797,29.78226802648623,4,15.38895498456648
+Coupled exponential reserve model,37.88700244596885,88.63437029968713,3,41.74472464180736

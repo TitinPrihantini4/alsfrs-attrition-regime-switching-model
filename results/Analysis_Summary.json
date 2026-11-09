@@ -1,0 +1,124 @@
+{
+  "seed": 20260825,
+  "reference": {
+    "tipping_month": 13.700000000000001,
+    "ALSFRS_6m": 33.77672176259781,
+    "FVC_6m": 76.89406097829902,
+    "ALSFRS_12m": 25.572172087700565,
+    "FVC_12m": 59.119386380772696,
+    "terminal_ALSFRS": 17.562617114660622,
+    "terminal_FVC": 41.59665550348135,
+    "terminal_margin": -0.13874159944585768,
+    "hazard_multiplier_18m": 12.950957985588033,
+    "ALSFRS_slope_0_6": -1.0372130395670318,
+    "FVC_slope_0_6": -2.2676565036168292
+  },
+  "uncertainty": {
+    "terminal_margin_median": -0.1507212693090408,
+    "terminal_margin_p2_5": -0.3094285689474228,
+    "terminal_margin_p97_5": -0.0015524689294607343,
+    "tipping_by_18_fraction": 0.978
+  },
+  "stochastic_class_counts": {
+    "Late crossing 12-18m": 495,
+    "Early crossing <=12m": 5
+  },
+  "top_prcc": [
+    {
+      "parameter": "thetaM",
+      "PRCC_terminal_margin": -0.8875548501633879,
+      "p_value": 9.725572300491664e-170
+    },
+    {
+      "parameter": "theta0",
+      "PRCC_terminal_margin": -0.8555937861631502,
+      "p_value": 1.620508578752128e-144
+    },
+    {
+      "parameter": "kR",
+      "PRCC_terminal_margin": -0.8551673537500141,
+      "p_value": 3.1906407246040257e-144
+    },
+    {
+      "parameter": "kMH",
+      "PRCC_terminal_margin": 0.8518631067187628,
+      "p_value": 5.6515258994736104e-142
+    },
+    {
+      "parameter": "kF",
+      "PRCC_terminal_margin": -0.8132614547024878,
+      "p_value": 3.4382659750159345e-119
+    },
+    {
+      "parameter": "kHM",
+      "PRCC_terminal_margin": -0.7918566731662093,
+      "p_value": 9.970569363939468e-109
+    },
+    {
+      "parameter": "kMM",
+      "PRCC_terminal_margin": -0.7484646592228867,
+      "p_value": 7.062665171591929e-91
+    },
+    {
+      "parameter": "kMF",
+      "PRCC_terminal_margin": -0.6572373878957344,
+      "p_value": 3.7533037091717633e-63
+    }
+  ],
+  "aic": [
+    {
+      "model": "Full regime-switching structural model",
+      "AIC_synthetic": -3.8577221958385106,
+      "standardized_RSS": 16.478068249134097,
+      "fitted_parameters": 4,
+      "delta_AIC": 0.0
+    },
+    {
+      "model": "Shared-inflection latent reserve model",
+      "AIC_synthetic": -1.1883103454071815,
+      "standardized_RSS": 15.655993774133925,
+      "fitted_parameters": 6,
+      "delta_AIC": 2.669411850431329
+    },
+    {
+      "model": "Independent linear trajectory model",
+      "AIC_synthetic": 11.53123278872797,
+      "standardized_RSS": 29.78226802648623,
+      "fitted_parameters": 4,
+      "delta_AIC": 15.38895498456648
+    },
+    {
+      "model": "Coupled exponential reserve model",
+      "AIC_synthetic": 37.88700244596885,
+      "standardized_RSS": 88.63437029968713,
+      "fitted_parameters": 3,
+      "delta_AIC": 41.74472464180736
+    }
+  ],
+  "quasi_equilibria": [
+    {
+      "anchor": "Preserved",
+      "ALSFRS_R_fixed": 42.0,
+      "FVC_pct_fixed": 95.0,
+      "momentum_eq": 0.6611429192647678,
+      "reserve_eq": 0.4843576669145094,
+      "dominant_real_eigenvalue": -0.0721032843279166
+    },
+    {
+      "anchor": "Compensated",
+      "ALSFRS_R_fixed": 38.0,
+      "FVC_pct_fixed": 80.0,
+      "momentum_eq": 0.7445891539638541,
+      "reserve_eq": 0.4242491879704071,
+      "dominant_real_eigenvalue": -0.0903278573787196
+    },
+    {
+      "anchor": "Depleted",
+      "ALSFRS_R_fixed": 30.0,
+      "FVC_pct_fixed": 60.0,
+      "momentum_eq": 0.8287995752079517,
+      "reserve_eq": 0.3399882747899666,
+      "dominant_real_eigenvalue": -0.1068432789494932
+    }
+  ]
+}
