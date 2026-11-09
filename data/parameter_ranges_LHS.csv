@@ -1,0 +1,16 @@
+parameter,lower_bound,upper_bound,evidence_status
+kF,0.055,0.11,assumed sensitivity interval; not a clinical confidence interval
+kFR,0.01,0.028,assumed sensitivity interval; not a clinical confidence interval
+kR,0.052,0.105,assumed sensitivity interval; not a clinical confidence interval
+kRF,0.008,0.025,assumed sensitivity interval; not a clinical confidence interval
+kM0,0.012,0.032,assumed sensitivity interval; not a clinical confidence interval
+kMF,0.05,0.115,assumed sensitivity interval; not a clinical confidence interval
+kMR,0.06,0.145,assumed sensitivity interval; not a clinical confidence interval
+kMM,0.055,0.125,assumed sensitivity interval; not a clinical confidence interval
+kMH,0.065,0.14,assumed sensitivity interval; not a clinical confidence interval
+kHF,0.02,0.055,assumed sensitivity interval; not a clinical confidence interval
+kHR,0.025,0.065,assumed sensitivity interval; not a clinical confidence interval
+kHM,0.065,0.14,assumed sensitivity interval; not a clinical confidence interval
+kHd,0.006,0.02,assumed sensitivity interval; not a clinical confidence interval
+theta0,0.29,0.39,assumed sensitivity interval; not a clinical confidence interval
+thetaM,0.2,0.36,assumed sensitivity interval; not a clinical confidence interval

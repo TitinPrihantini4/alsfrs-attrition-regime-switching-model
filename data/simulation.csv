@@ -1,0 +1,10 @@
+setting,value,note
+random_seed,20260825,fixed random seed
+LHS_samples,500,as implemented in supplied script
+stochastic_runs,500,as implemented in supplied script
+reference_horizon_months,18,reference trajectory
+reference_dt_months,0.05,reference simulation
+reference_initial_F,0.8333333333333334,normalized ALSFRS-R
+reference_initial_R,0.905,normalized FVC
+reference_initial_M,0.22,latent initial assumption
+reference_initial_H,0.78,latent initial assumption

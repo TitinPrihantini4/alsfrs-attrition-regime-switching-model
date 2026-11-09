@@ -1,0 +1,6 @@
+scenario,parameter_overrides_json,initial_F,initial_R,initial_M,initial_H
+Slow progression,"{""kF"": 0.055, ""kR"": 0.052}",0.875,0.95,0.16,0.84
+PRO-ACT-aligned reference,{},0.8333333333333334,0.905,0.22,0.78
+Respiratory vulnerable,"{""kMR"": 0.125, ""kR"": 0.105}",0.8333333333333334,0.8,0.28,0.7
+Fast functional progression,"{""kF"": 0.11, ""kMF"": 0.105}",0.7916666666666666,0.88,0.3,0.7
+Low combined reserve,"{""kF"": 0.095, ""kR"": 0.095}",0.7083333333333334,0.7,0.32,0.62

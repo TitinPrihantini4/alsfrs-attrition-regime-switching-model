@@ -1,0 +1,24 @@
+parameter,value,evidence_status
+kF,0.08,provisional structural assumption; not patient fitted
+kFR,0.018,provisional structural assumption; not patient fitted
+kR,0.075,provisional structural assumption; not patient fitted
+kRF,0.015,provisional structural assumption; not patient fitted
+kM0,0.02,provisional structural assumption; not patient fitted
+kMF,0.08,provisional structural assumption; not patient fitted
+kMR,0.1,provisional structural assumption; not patient fitted
+kMM,0.09,provisional structural assumption; not patient fitted
+kMH,0.1,provisional structural assumption; not patient fitted
+kHF,0.035,provisional structural assumption; not patient fitted
+kHR,0.045,provisional structural assumption; not patient fitted
+kHM,0.1,provisional structural assumption; not patient fitted
+kHd,0.012,provisional structural assumption; not patient fitted
+theta0,0.34,provisional structural assumption; not patient fitted
+thetaM,0.28,provisional structural assumption; not patient fitted
+wF,0.34,provisional structural assumption; not patient fitted
+wR,0.34,provisional structural assumption; not patient fitted
+wH,0.32,provisional structural assumption; not patient fitted
+h0,0.015,provisional structural assumption; not patient fitted
+bM,1.8,provisional structural assumption; not patient fitted
+bF,1.2,provisional structural assumption; not patient fitted
+bR,1.5,provisional structural assumption; not patient fitted
+bH,1.0,provisional structural assumption; not patient fitted
